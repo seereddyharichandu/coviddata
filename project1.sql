@@ -112,7 +112,7 @@ Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
 
 
-
+--- creating a temp table
 
 
 
