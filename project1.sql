@@ -125,7 +125,7 @@ location nvarchar(255),
 Date datetime,
 Population numeric,
 New_vaccinations numeric,
-rollingpeoplevaccinated int
+rollingpeoplevaccinated bigint
 )
 insert into #PercentPopulationVaccinated
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
